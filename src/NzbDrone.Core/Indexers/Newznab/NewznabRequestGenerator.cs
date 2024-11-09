@@ -402,6 +402,8 @@ namespace NzbDrone.Core.Indexers.Newznab
         {
             var pageableRequests = new IndexerPageableRequestChain();
 
+            System.Console.WriteLine("This is my print statement for testing Newsznab.AnimeEpisodeSearchCriteria");
+
             if (SupportsSearch)
             {
                 AddTvIdPageableRequests(pageableRequests,
